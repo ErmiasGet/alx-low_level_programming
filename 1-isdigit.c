@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _isupper - check if a letter is digit
+ * _isdigit - check if a letter is digit
  * @x : The number to be checked
- * return: 1 for character will be a digit or 0 for any else
+ * return: 1 for a character will be a digit or 0 for any else
  */
-int _isdigit(int c)
+int _isdigit(int x)
 {
 	if (x >= 48 && x <= 57)
 	{
